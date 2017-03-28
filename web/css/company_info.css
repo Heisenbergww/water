@@ -1,0 +1,13 @@
+/*导航的下划线*/
+.menu ul li:nth-child(3) a{
+    background: -webkit-linear-gradient(top, #777777, #4e4e4e);
+    background: -ms-linear-gradient(top,#777777 0%,#4e4e4e 100%);
+}
+/*主体部分*/
+.about-us-wrap{
+    padding-bottom: 40px;
+    /*height: 700px;*/
+}
+.about-us-content img{
+    margin-right:20px;
+}

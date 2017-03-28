@@ -1,0 +1,87 @@
+.menu ul li:nth-child(6) a{
+    background: -webkit-linear-gradient(top, #777777, #4e4e4e);
+    background: -ms-linear-gradient(top,#777777 0%,#4e4e4e 100%);
+}
+/*主体部分*/
+.contact-us{
+    height: 700px;
+}
+.contact-us-wrap h3{
+    font-size:24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.contact-us-wrap{
+    padding: 0 50px;
+}
+.company-info p{
+    margin: 5px 0;
+}
+.company-info-left{
+    /*width: 254px;*/
+    margin-right:60px;
+}
+.company-info-left a{
+    color: #005BAC;
+}
+.company-info p span{
+    color: #666;
+}
+.contact-us-form{
+    /*background-color: #f7f7f7;*/
+    padding-bottom:20px;
+    margin-top:30px;
+}
+.contact-us-form h3{
+    font-weight: normal;
+    font-size: 18px;
+    padding: 10px;
+    color: #666;
+}
+.contact-us-form input{
+    display: block;
+    margin: 0 auto 10px;
+    width: 420px;
+    height: 34px;
+    text-indent: 6px;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+}
+.contact-us-form textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 420px;
+    height: 85px;
+    text-indent: 6px;
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+}
+.contact-us-form .contact-us-submit{
+    display: block;
+    width: 84px;
+    height: 32px;
+    margin: 10px auto;
+    border: none;
+    background-color: #005BAC;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

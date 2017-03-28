@@ -1,0 +1,251 @@
+.section{
+    padding-top: 46px;
+}
+.section1{
+    margin-top:40px;
+    margin-bottom:23px;
+}
+.company_contact_info{
+    width: 90%;
+    margin: 0 auto;
+}
+.company_contact_info p{
+    font-size: 1.4rem;
+    color: #2b2c33;
+    margin: 10px 0;
+}
+.company_contact_info p span{
+    font-size: 1.4rem;
+    color: #66676e;
+}
+.company_contact_info p a{
+    font-size: 1.4rem;
+    color: #005BAC;
+}
+/*第二部分*/
+.section2 {
+    text-align: center;
+}
+.section2 img{
+    width: 100%;
+    height: auto;
+}
+/*第三部分*/
+.section3{
+    margin: 49px 0 20px;
+    padding: 14px 0 21px;
+    background-color: #f7f7f7;
+}
+.section3 h1{
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+    font-weight:normal;
+}
+.leave_message{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.leave_message p{
+    font-size: 1.4rem;
+    color: #818185;
+    margin-bottom:10px;
+}
+.leave_message input{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 46px;
+    margin-bottom:20px;
+    border: 1px solid #d8d8d8;
+    text-indent: 10px;
+}
+.leave_message textarea{
+    font-size: 1.6rem;
+    font-family:"Microsoft YaHei UI";
+    text-indent: 10px;
+    width: 100%;
+    height: 120px;
+    margin-bottom:30px;
+    border: 1px solid #d8d8d8;
+}
+.leave_message .contact_us_submit{
+    font-size: 1.8rem;
+    width: 75%;
+    height: 48px;
+    background-color: #005BAC;
+    color: #fff;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    -webkit-appearance : none ;
+}
+@media screen and (max-width: 374px){
+    .section{
+        padding-top: 56px;
+    }
+    .section1{
+        margin-top:40px;
+        margin-bottom:23px;
+    }
+    .company_contact_info{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .company_contact_info p{
+        font-size: 1.4rem;
+        color: #2b2c33;
+        margin: 10px 0;
+    }
+    .company_contact_info p span{
+        font-size: 1.4rem;
+        color: #66676e;
+    }
+    .company_contact_info p a{
+        font-size: 1.4rem;
+        color: #005BAC;
+    }
+    /*第二部分*/
+    .section2 {
+        text-align: center;
+    }
+    .section2 img{
+        width: 100%;
+        height: auto;
+    }
+    /*第三部分*/
+    .section3{
+        margin: 49px 0 20px;
+        padding: 14px 0 21px;
+        background-color: #f7f7f7;
+    }
+    .section3 h1{
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: normal;
+    }
+    .leave_message{
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .leave_message p{
+        font-size: 1.4rem;
+        color: #818185;
+        margin-bottom:10px;
+    }
+    .leave_message input{
+        font-size: 1.6rem;
+        width: 100%;
+        height: 46px;
+        margin-bottom:20px;
+        border: 1px solid #d8d8d8;
+        text-indent: 10px;
+    }
+    .leave_message textarea{
+        font-size: 1.6rem;
+        font-family:"Microsoft YaHei UI";
+        text-indent: 10px;
+        width: 100%;
+        height: 120px;
+        margin-bottom:30px;
+        border: 1px solid #d8d8d8;
+    }
+    .leave_message .contact_us_submit{
+        font-size: 1.8rem;
+        width: 75%;
+        height: 48px;
+        background-color: #005BAC;
+        color: #fff;
+        margin: 0 auto;
+        border: none;
+        display: block;
+        -webkit-appearance : none ;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 900px){
+    .section{
+        padding-top: 56px;
+    }
+    .section1{
+        margin-top:40px;
+        margin-bottom:23px;
+    }
+    .company_contact_info{
+        width: 335px;
+        margin: 0 auto;
+    }
+    .company_contact_info p{
+        font-size: 1.4rem;
+        color: #2b2c33;
+        margin: 10px 0;
+    }
+    .company_contact_info p span{
+        font-size: 1.4rem;
+        color: #66676e;
+    }
+    .company_contact_info p a{
+        font-size: 1.4rem;
+        color: #005BAC;
+    }
+    /*第二部分*/
+    .section2 {
+        text-align: center;
+    }
+    .section2 img{
+        width: 375px;
+        height: auto;
+    }
+    /*第三部分*/
+    .section3{
+        margin: 49px 0 20px;
+        padding: 14px 0 21px;
+        background-color: #f7f7f7;
+    }
+    .section3 h1{
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: normal;
+    }
+    .leave_message{
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .leave_message p{
+        font-size: 1.4rem;
+        color: #818185;
+        margin-bottom:10px;
+    }
+    .leave_message input{
+        font-size: 1.4rem;
+        width: 100%;
+        height: 46px;
+        margin-bottom:20px;
+        border: 1px solid #d8d8d8;
+        text-indent: 10px;
+    }
+    .leave_message textarea{
+        font-size: 1.6rem;
+        font-family:"Microsoft YaHei UI";
+        text-indent: 10px;
+        width: 100%;
+        height: 120px;
+        margin-bottom:30px;
+        border: 1px solid #d8d8d8;
+    }
+    .leave_message .contact_us_submit{
+        font-size: 14px;
+        width: 84px;
+        height: 32px;
+        border-radius: 4px;
+        background-color: #005BAC;
+        color: #fff;
+        margin: 0 auto;
+        border: none;
+        display: block;
+        -webkit-appearance : none ;
+    }
+}
+
+/*# sourceMappingURL=contact_us.css.map */

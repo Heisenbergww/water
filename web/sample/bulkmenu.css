@@ -1,0 +1,12 @@
+#banner{padding-top:0px;}
+
+#wz{position:absolute;top:-1px;left:4px;z-index:10;border-radius:5px;display:block;width:172px;height:35px;background:top left url(logo.jpg) no-repeat;}
+
+#top-menu{margin:0 auto;text-align:center;padding:0;background:#000;}
+#top-menu{border-bottom:1px solid #333;}
+
+#top-menu ul{margin:0;padding:12px 0;width:100%;}
+#top-menu ul li{display:inline;padding:0 60px 0 0;margin:0;}
+#top-menu a{color:#999;font-size:0.9375em;padding:0;margin:0;}
+#top-menu a:hover{text-decoration:none;color:#99CC00;}
+#top-menu, #top-menu li {zoom:100%;}

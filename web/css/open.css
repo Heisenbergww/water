@@ -1,0 +1,11 @@
+.open-left-menu{
+    float: left;
+    width: 270px;
+    background-color: pink;
+}
+.open-right-content{
+    float: left;
+    width: 890px;
+    margin-left: 20px;
+    background-color: green;
+}

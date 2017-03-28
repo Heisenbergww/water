@@ -1,0 +1,39 @@
+
+
+    .section{
+        padding-top: 56px;
+    }
+    .section1{
+        padding-top: 33px;
+    }
+    .branch h1{
+        font-size:2rem;
+        text-align: center;
+    }
+    .branch .hr{
+        width: 226px;
+        height: 1px;
+        background-color: #d8d8d8;
+        margin: 7px auto 17px;
+    }    
+    .location {
+        padding: 0px 22px 10px;
+    }
+    .location p{
+        font-size: 1.8rem;
+        margin: 10px auto;
+    }
+    .location p span{
+        font-size: 1.8rem;        
+    }
+    .location_map{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .location_map img{
+        width:100% ;
+        height: auto;
+    }
+
+
+/*# sourceMappingURL=our_branch.css.map */

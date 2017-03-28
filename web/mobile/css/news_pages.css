@@ -1,0 +1,65 @@
+.section{
+    padding-top: 56px;
+}
+@media screen and (max-width: 374px){
+    .section1 .customize_writing{
+        width: 100%;
+        font-size: 1.4rem;
+        padding: 20px 5px 0 ;
+    }
+    .section1 .customize_writing p{
+        font-size: 1.4rem;
+        margin-bottom:10px;
+    }
+    .section1 .customize_writing span{
+        font-size: 1.4rem;
+        margin-bottom:10px;
+    }
+    .section1 .customize_writing h1,
+    .section1 .customize_writing h2,
+    .section1 .customize_writing h3,
+    .section1 .customize_writing h4,
+    .section1 .customize_writing h5,
+    .section1 .customize_writing h6{
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .section1 .customize_writing img{
+        max-width: 100%;
+        margin: 5px auto;
+    }
+
+}
+@media screen and (min-width: 375px) and (max-width: 900px){
+    .section1 .customize_writing{
+        width: 375px;
+        margin: 0 auto;
+        font-size: 1.4rem;
+        padding: 20px 5px 0 ;
+    }
+    .section1 .customize_writing p{
+        font-size: 1.4rem;
+        margin-bottom:10px;
+    }
+    .section1 .customize_writing span{
+        font-size: 1.4rem;
+        margin-bottom:10px;
+    }
+    .section1 .customize_writing h1,
+    .section1 .customize_writing h2,
+    .section1 .customize_writing h3,
+    .section1 .customize_writing h4,
+    .section1 .customize_writing h5,
+    .section1 .customize_writing h6{
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .section1 .customize_writing img{
+        max-width: 100%;
+        margin: 5px auto;
+    }
+}
+
+/*# sourceMappingURL=news_pages.css.map */

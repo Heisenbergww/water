@@ -1,0 +1,71 @@
+/*导航的下划线*/
+.menu ul li:nth-child(4) a{
+    border-bottom:2px solid #0767bd;
+}
+/*主体部分*/
+/*第一部分*/
+/*面包屑*/
+.breadcrumb {
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid #efefef;
+}
+.breadcrumb a {
+    color: #818185;
+    text-decoration: none;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+
+}
+.breadcrumb li.active:before {
+    content: "";
+    padding: 0;
+}
+.breadcrumb.details-breadcrumb {
+    border: none;
+}
+.breadcrumb > li {
+    display: inline-block;
+    color: #2D2D33;
+}
+/*展示大图片*/
+.section1{
+    min-width: 1185px;
+}
+.show-pic{
+    height: 200px;
+    background-image: url("../img/banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*第二部分*/
+.eg_content{
+    width: 800px;
+    margin: 0 auto;
+}
+.eg_content h1{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.eg_content p{
+    /*font-family: STHeitiSC-Light;*/
+    font-size: 14px;
+    color: #2D2D33;
+    letter-spacing: 0px;
+    line-height: 25px;
+}
+.eg_content_title{
+    margin-bottom: 50px;
+}
+.eg_content_pic p{
+    text-align: center;
+    padding:  10px auto;
+}
+.eg_content_pic1,
+.eg_content_pic2{
+    padding-bottom: 10px;
+}

@@ -1,0 +1,76 @@
+.section{
+    padding-top: 56px;
+}
+.section1{
+    margin-top:40px;
+    margin-bottom:23px;
+}
+.join_us_content_child {
+    padding: 0 10px;
+    font-size: 1.4rem;
+}
+.join_us_content_child h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight:normal;
+}
+.join_us_content_child p{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.join_us_form_child{
+    padding: 0 10px;
+    font-size: 1.4rem;
+}
+.join_us_form_child h2{
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight:normal;
+}
+.join_us_form_child p{
+    font-size: 1.4rem;
+    color: #818185;
+    margin-bottom:10px;
+}
+.join_us_form_child input{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 46px;
+    margin-bottom:20px;
+    border: 1px solid #d8d8d8;
+}
+.join_us_form_child select{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 46px;
+    margin-bottom:20px;
+    border: 1px solid #d8d8d8;
+}
+.join_us_form_child select option{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 46px;
+    margin-bottom:20px;
+    border: 1px solid #d8d8d8;
+}
+.join_us_form_child textarea{
+    font-size: 2.0rem;
+    width: 100%;
+    height: 120px;
+    margin-bottom:30px;
+    border: 1px solid #d8d8d8;
+}
+.join_us_form_child .contact_us_submit{
+    font-size: 1.8rem;
+    width: 75%;
+    height: 48px;
+    background-color: #B7683F;
+    color: #fff;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    -webkit-appearance : none ;
+}

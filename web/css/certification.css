@@ -1,0 +1,20 @@
+/*导航的下划线*/
+.menu ul li:nth-child(4) a{
+    background: -webkit-linear-gradient(top, #777777, #4e4e4e);
+    background: -ms-linear-gradient(top,#777777 0%,#4e4e4e 100%);
+}
+
+/*主体部分*/
+.certification-content h3{
+    font-size: 24px;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom: 22px;
+}
+.certification-pics{
+    margin: -10px -8px 10px;
+}
+.certification-pic{
+    width: 268px;
+    margin: 10px 5px;
+}

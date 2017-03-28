@@ -1,0 +1,127 @@
+/*导航的下划线*/
+.menu ul li:nth-child(6) a{
+    border-bottom:2px solid #B7683F;
+}
+.contact_us_pic{
+    text-align: center;
+}
+.section1{
+    height: 300px;
+}
+.section1 h1{
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 24px;
+    word-spacing: -8px;
+    margin-top: -210px;
+    font-family: DINOT-Medium;
+}
+.section1 h2{
+    font-size: 24px;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    font-family: DINOT-Medium;
+}
+
+/*第2部分*/
+.section2{
+    margin-top:50px;
+}
+.section2 h1{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.join_us{
+    background-color: #f7f7f7;
+    padding: 20px 0 0;
+}
+.join_us_content_child h2{
+    font-size:24px;
+    margin-bottom:50px;
+}
+.join_us_content_child p{
+    font-size: 18px;
+    color: #2B2C33;
+    letter-spacing: 0px;
+    margin-bottom:30px;
+    width: 480px;
+}
+
+/*公司信息*/
+.join_us_company_info{
+    margin-top:50px;
+}
+.join_us_company_info p{
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #2b2c33;
+    width: 480px;
+}
+.join_us_company_info p span{
+    color: #66676e;
+}
+.join_us_company_info p a{
+    color: #B7683F;
+}
+
+/*表格*/
+.join_us_form_child h2{
+    font-size:24px;
+    margin-bottom:30px;
+}
+.join_us_form_child p{
+    text-align: left;
+    font-size: 14px;
+    color: #818181;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+.join_us_form_child input{
+    text-indent: 10px;
+    width: 480px;
+    height: 46px;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.join_us_form_child select{
+    border: 1px solid #D5D5D5;
+    width: 480px;
+    font-size: 16px;
+    height: 46px;
+    /*text-indent: 10px;*/
+    margin-bottom:15px;
+}
+.join_us_form_child select option{
+    padding: 13px 0;
+    font-size: 18px;
+    text-indent: 10px;
+}
+.join_us_form_child .input_left{
+    margin-right: 20px;
+}
+.join_us_form_child  textarea{
+    font-size: 14px;
+    border: 1px solid #D5D5D5;
+    width:480px;
+    height: 120px;
+    text-indent: 10px;
+}
+.join_us_form_child .contact_us_submit{
+    text-indent: 0;
+    margin-left:100px;
+    text-align: center;
+    border:1px solid #B7683F;
+    width: 280px;
+    height: 50px;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    background: #B7683F;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+}

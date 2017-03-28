@@ -1,0 +1,60 @@
+/*导航的下划线*/
+.menu ul li:nth-child(4) a{
+    border-bottom:2px solid #009240;
+}
+.to_about_us ul li:nth-child(3) a{
+    color: #0767bd;
+    font-weight: bold;
+}
+/*主体部分*/
+/*第0部分*/
+/*面包屑*/
+.breadcrumb {
+    font-weight: 400;
+    font-size: 14px;
+    margin:10px 0 10px 0;
+    padding:0;
+}
+.breadcrumb a {
+    color: #999;
+    text-decoration: none;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+    color: #000;
+}
+.breadcrumb li.active:before {
+    content: "";
+    padding: 0;
+}
+.breadcrumb.details-breadcrumb {
+    border: none;
+}
+.breadcrumb > li {
+    display: inline-block;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/*第一部分*/
+.big_bg_menu{
+
+    background-color: #2b2c33;
+    height: 148px;
+    padding-bottom:25px;
+}
+.big_bg_menu h1{
+    color:#fff;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+/*第二部分*/
+.Special_Technology_content p{
+    font-size: 18px;
+    color: #2b2c33;
+}
+.Special_Technology_content img{
+   width: 100%;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}

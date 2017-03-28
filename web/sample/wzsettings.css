@@ -1,0 +1,7 @@
+/* 
+   custom settings for the webresizer api
+   distributed under GNU 2.0 author: webresizer 
+*/
+
+/* custom thumbnail size */
+.thumb img{width:1.85em;height:1.85em;}

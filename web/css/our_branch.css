@@ -1,0 +1,89 @@
+/*导航的下划线*/
+.menu ul li:nth-child(4) a{
+    border-bottom:2px solid #B7683F;
+}
+.to_about_us ul li:nth-child(4) a{
+    color: #0767bd;
+    font-weight: bold;
+}
+/*主体部分*/
+/*第一部分*/
+.big_bg_menu{
+    background-color: #2b2c33;
+    height: 148px;
+    padding-bottom:25px;
+}
+.big_bg_menu h1{
+    color:#fff;
+    padding-top:40px;
+    padding-bottom:20px;
+}
+/*面包屑*/
+.section1{
+    padding: 10px 0;
+}
+.breadcrumb {
+    font-weight: 400;
+    font-size: 14px;
+    margin:0;
+    padding:0;
+}
+.breadcrumb a {
+    color: #818185;
+    text-decoration: none;
+}
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+
+}
+.breadcrumb li.active:before {
+    content: "";
+    padding: 0;
+}
+.breadcrumb.details-breadcrumb {
+    border: none;
+}
+.breadcrumb > li {
+    display: inline-block;
+    color: #2b2c33;
+}
+
+/*第二部分*/
+.section2{
+    min-width: 1200px;
+}
+.container_our_branch{
+    padding-right: 13.5%;
+    padding-left: 13.5%;
+}
+.our_branch_title{
+    min-width: 980px;
+    margin-top: 40px;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d8d8d8;
+    font-family:DINOT-Medium;
+}
+.our_branch_content{
+     padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+.container_our_branch:nth-of-type(even){
+    background-color: #f9f9f9;
+}
+.our_branch_content p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.map_pic{
+    float: right;
+}
+.map_pic img{
+    width: 100%;
+}
