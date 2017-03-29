@@ -125,12 +125,13 @@
             </li>
             <li>
                 <a class="dropdown-toggle" href="#">
-                    <i class="icon-edit"></i>
-                    <span>留言管理</span>
+                    <i class="icon-glass"></i>
+                    <span>办事公开</span>
                     <i class="icon-chevron-down"></i>
                 </a>
                 <ul class="submenu">
-                <li><a href="<?php echo yii\helpers\Url::to(['message/listm'])?>">contact us留言列表</a></li>
+                    <li><a href="<?php echo yii\helpers\Url::to(['open/add'])?>">添加</a></li>
+                    <li><a href="<?php echo yii\helpers\Url::to(['open/list'])?>">列表</a></li>
                 </ul>
             </li>
             <li>

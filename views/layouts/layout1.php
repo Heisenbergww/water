@@ -32,9 +32,6 @@
             <div class="container clearfix">
                 <a href="" name="top_top">
                 </a>
-                <div class="logo fl">
-                    <a href="/" name="logo"><img src="/img/logo.png" alt="" ></a>
-                </div>               
                 <div class="logo-right fr">
                     <div class="language fr">
                         <p><?php echo Yii::t('app', '哈尔滨利民经济技术开发区自来水有限公司');?></p>
@@ -43,13 +40,16 @@
             </div>
         </nav>
         <div class="menu container clearfix">
-            <ul class="clearfix ">
+            <div class="logo fl">
+                <a href="/" name="logo"><img src="/img/logo.png" alt="" ></a>
+            </div>
+            <ul class="clearfix fr">
                 <li><a href="/" class=""><span><?php echo Yii::t('app', '首页');?></span></a></li>
                 <li><a href="<?php echo yii\helpers\Url::to(['news/index'])?>"><span><?php echo Yii::t('app', '新闻');?></span></a></li>
                 <li><a href="<?php echo yii\helpers\Url::to(['known/index'])?>"><span><?php echo Yii::t('app', '用水常识');?></span></a></li>
                 <li><a href="<?php echo yii\helpers\Url::to(['open/index'])?>"><span><?php echo Yii::t('app', '办事公开');?></span></a></li>
-                <li><a href="<?php echo yii\helpers\Url::to(['support/faq'])?>"><span><?php echo Yii::t('app', 'FAQ');?></span></a></li>
-                <li><a href="<?php echo yii\helpers\Url::to(['contactus/index'])?>"><span><?php echo Yii::t('app', 'Contact Us');?></span></a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '公司简介');?></span></a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '联系我们');?></span></a></li>
             </ul>
         </div>
     </header>
@@ -100,8 +100,8 @@
                             <li><a href="<?php echo yii\helpers\Url::to(['news/index'])?>"><?php echo Yii::t('app', '新闻');?></a></li>
                             <li><a href="<?php echo yii\helpers\Url::to(['known/index'])?>"><?php echo Yii::t('app', '用水常识');?></a></li>
                             <li><a href="<?php echo yii\helpers\Url::to(['open/index'])?>"><?php echo Yii::t('app', '办事公开');?></a></li>
-                            <li><a href="<?php echo yii\helpers\Url::to(['support/faq'])?>"><?php echo Yii::t('app', 'FAQ');?></a></li>
-                            <li><a href="<?php echo yii\helpers\Url::to(['contactus/index'])?>"><?php echo Yii::t('app', 'Contact Us');?></a></li>
+                            <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '公司简介');?></a></li>
+                            <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '联系我们');?></a></li>
                         </ul>
                     </div>
                     <p><?php echo Yii::t('app', '哈尔滨利民经济技术开发区自来水有限公司');?></p>

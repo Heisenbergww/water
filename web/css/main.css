@@ -21,13 +21,13 @@
 }
 
 body{
-    font-family: 微软雅黑, 'Microsoft YaHei';
-    background-color: #efefef;
+    font-family: å¾®è½¯é›…é»‘, 'Microsoft YaHei';
+    background-color: #f7f7f7;
     min-width: 1200px;
     margin: 0 auto;
 }
 h1,h2,h3,h4,h5,h6,p{
-    font-family: 微软雅黑, 'Microsoft YaHei';
+    font-family: å¾®è½¯é›…é»‘, 'Microsoft YaHei';
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -92,7 +92,7 @@ header nav{
 }
 /*nav*/
 .navbar{
-    background-color: #fff;
+    background-color: #3592E9;
 }
 .navbar a{
     color: #2D2D33;
@@ -100,7 +100,7 @@ header nav{
 
 /*logo*/
 .logo{
-    margin-top:10px;
+    margin-top: 5px;
 }
 .logo img{
     width: ;
@@ -138,8 +138,9 @@ header nav{
 
 }
 .menu ul{
+    height: 54px;
     box-sizing: border-box;
-    background: #01acf1;
+    /* background: #01acf1; */
 }
 .menu ul li{
     position: relative;
@@ -150,37 +151,26 @@ header nav{
 }
 .menu ul li a{
     /*width:100%;*/
+    /*  */
+    padding: 2;
     display: block;
     box-sizing: border-box;
-    width: 196.6px;
-    background:#01acf1;
-    
+    /* width: 196.6px; */
+    /* background:#01acf1; */
 }
 .menu ul li a span{
-    padding:17px 0 15px 0;
+    padding: 0 30px;
+    height: 54px;
+    font-size:18px;
+    line-height: 54px;
     display: block;
     box-sizing: border-box;
-    color: #fff;
+    color: #000;
 }
-.menu ul li a:after{
-    content: '';
-    width: 2px;
-    position: absolute;
-    left: -1px;
-    top: 11px;
-    height: 30px;
-    background-color: #efefef;
+.menu ul li a span:hover{
+    color: #3592E9;
+}
 
-}
-.menu ul li:nth-of-type(1) a:after{
-    content: '';
-    width: 1px;
-    position: absolute;
-    right: 0;
-    top: 11px;
-    height: 30px;
-    background-color: transparent;
-}
 .banner{
     display: block;
     position: relative;
@@ -257,6 +247,7 @@ header nav{
 }
 .language p,
 .language_child p{
+    color:#fff;
     margin:0;
     font-family:DINOT-Bold;
     font-size: 18px;
@@ -322,7 +313,7 @@ header nav{
     text-indent: 20px;
     position: relative;
     font-weight: bold;
-    font-family: 微软雅黑, 'Microsoft YaHei';
+    font-family: å¾®è½¯é›…é»‘, 'Microsoft YaHei';
 }
 .product-category h3 span{
     position: absolute;
@@ -339,7 +330,7 @@ header nav{
     margin: 10px 0 10px 25px;
     padding-left: 5px;
     color: #333;
-    font-family: 微软雅黑, 'Microsoft YaHei';
+    font-family: å¾®è½¯é›…é»‘, 'Microsoft YaHei';
 }
 .product-category hr{
     width: 230px;
@@ -482,7 +473,7 @@ footer{
 /*.footer .footer_menu ul li:nth-of-type(4),*/
 /*.footer .footer_menu ul li:nth-of-type(5),*/
 /*.footer .footer_menu ul li:nth-of-type(6){*/
-    /*border-left:1px solid #fff;*/
+/*border-left:1px solid #fff;*/
 /*}*/
 
 /**************************************************************************************************************************************/
@@ -770,7 +761,7 @@ footer{
         margin-left: 0;
     }
 
-    /*åˆ†é¡µæ ·å¼*/
+    /*Ã¥Ë†â€ Ã©Â¡ÂµÃ¦Â Â·Ã¥Â¼Â*/
     .pagination {
         margin: 10px 5px 20px 0;
     }
@@ -858,11 +849,11 @@ footer{
 
 /*overrrides*/
 .pagination ul > li:last-child > a,
-                .pagination ul > li:last-child > span,
-                .pagination ul > li:first-child > a,
-                .pagination ul > li:first-child > span{
-                    color: #bcc6d3;
-                }
+.pagination ul > li:last-child > span,
+.pagination ul > li:first-child > a,
+.pagination ul > li:first-child > span{
+    color: #bcc6d3;
+}
 .pagination ul > li:last-child > a:hover,
 .pagination ul > li:last-child > span:hover,
 .pagination ul > li:first-child > a:hover,

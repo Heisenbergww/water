@@ -4,13 +4,8 @@ a:focus {
   text-decoration: none;
 }
 /*导航的下划线*/
-.menu ul li:nth-child(4) a{
-    border-bottom:2px solid #B7683F;
-}
-.to_about_us ul li:nth-child(3) a{
-    color: #0767bd;
-    font-weight: bold;
-}
+
+
 /*主体部分*/
 /*第一部分*/
 .section1{
@@ -102,3 +97,119 @@ a:focus {
     bottom:-50px;
     position:absolute;
 }
+/*位置*/
+.a-page:nth-of-type(4){
+    background-color: #3092ea;
+    color: #fff;
+}
+
+.news-banner{
+    margin-top: -100px;
+    text-align: center;
+}
+.news-banner img{
+    width: 100%;
+}
+.news-h{
+    font-size: 30px;
+    color: #333;
+    margin-top: 60px;
+    text-align: center;
+}
+.news-com{
+    margin-bottom: 30px;
+}
+.news-p{
+    font-size: 15px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.home-news{
+    background-color: #fbfbfb;
+}
+.news-show-pic{
+    width: 350px;
+    /*height: 300px;*/
+    margin-left: 100px;
+}
+.news-show-pic img{
+    width:100%;
+    box-shadow: -19px -16px 0px rgba(242, 242, 242, 0.5);
+}
+.news-show-pic img:first-of-type{
+    margin-bottom: 30px;
+}
+.news-item-l{
+    position: relative;
+}
+.news-day{
+    position: absolute;
+    font-size: 50px;
+    font-weight: 100;
+    color: #666;
+    top: -10px;
+    display: block;
+    width: 60px;
+    left: 15px;
+}
+.news-month{
+    position: absolute;
+    font-size: 12px;
+    display: block;
+    width: 48px;
+    left: 21px;
+    bottom: 24px;
+    color: #888;
+}
+.news-summary{
+    width: calc(100% - 450px);
+    padding-left: 30px;
+}
+.news-head{
+    color: #3092ea;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.news-item{
+    height: 90px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #efefef;
+}
+.news-item-l{
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+.news-item-r{
+    width: calc(100% - 100px);
+}
+.news-item-head{
+    font-size:16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+.new-item-desc{
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 31px;
+}
+.news-item:hover .news-day,
+.news-item:hover .news-month{
+    color: #3092ea;
+}
+.news-item:hover .news-item-head{
+    color: #3092ea;
+}
+.news-item:hover .new-item-desc{
+    text-decoration: underline;
+}
+

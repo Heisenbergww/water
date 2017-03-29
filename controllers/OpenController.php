@@ -6,6 +6,7 @@ use yii\web\Controller;
 use Yii;
 use app\controllers\CommonController;
 use yii\data\Pagination;
+use app\models\Open;
 
 
 
@@ -13,44 +14,18 @@ class OpenController extends CommonController
 {
     public function actionIndex()
     {
-        $this->layout = 'layout1';
+        $this->layout = 'layout2';
         return $this->render('index');
     }
-    public function actionOpenpages1()
+
+    public function actionPages()
     {
-        $this->layout = 'layout1';
-        return $this->render('open-pages1');
+        $this->layout = 'layout2';
+        $articleid = Yii::$app->request->get('articleid');
+        $model = Open::find()->where(['articleid'=>$articleid])->asArray()->one();
+        return $this->render('pages',['model'=>$model]);
     }
-    public function actionOpenpages2()
-    {
-        $this->layout = 'layout1';
-        return $this->render('open-pages2');
-    }
-    public function actionOpenpages3()
-    {
-        $this->layout = 'layout1';
-        return $this->render('open-pages3');
-    }
-    public function actionOpenpages4()
-    {
-        $this->layout = 'layout1';
-        return $this->render('open-pages4');
-    }
-    public function actionOpenpages5()
-    {
-        $this->layout = 'layout1';
-        return $this->render('open-pages5');
-    }
-    public function actionOpenpages6()
-    {
-        $this->layout = 'layout1';
-        return $this->render('open-pages6');
-    }
-    public function actionOpenpages7()
-    {
-        $this->layout = 'layout1';
-        return $this->render('open-pages7');
-    }
+ 
 }
 
 

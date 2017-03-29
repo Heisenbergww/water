@@ -1,14 +1,4 @@
-/*导航的下划线*/
-.menu ul li:nth-child(4) a{
-    border-bottom:2px solid #009240;
-}
-.to_about_us ul li:nth-child(3) a{
-    color: #0767bd;
-    font-weight: bold;
-}
-/*主体部分*/
-/*第0部分*/
-/*面包屑*/
+
 .breadcrumb {
     font-weight: 400;
     font-size: 14px;
@@ -36,7 +26,7 @@
     text-transform: uppercase;
 }
 
-/*第一部分*/
+/*ç¬¬ä¸€éƒ¨åˆ†*/
 .big_bg_menu{
 
     background-color: #2b2c33;
@@ -48,13 +38,59 @@
     padding-top:40px;
     padding-bottom:20px;
 }
-/*第二部分*/
+/*ç¬¬äºŒéƒ¨åˆ†*/
 .Special_Technology_content p{
     font-size: 18px;
     color: #2b2c33;
+    /* text-align: center; */
 }
 .Special_Technology_content img{
-   width: 100%;
+    width: 100%;
     margin-top: 40px;
     margin-bottom: 80px;
+}
+.news_body{
+    margin: 0 auto;
+}
+.news{
+}
+.news_title{
+    color: #29343a;
+    background: #e5f0f7;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top:10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.news_content{
+    padding: 5px 0 10px;
+    /* text-align: left; */
+}
+.news_content p{
+    text-indent:2em;
+}
+.author p{
+    font-size: 12px;
+    text-align: right;
+    color: #004077;
+    line-height: 26px;
+}
+.date{
+    padding-top: 20px;
+}
+.date{
+    font-size: 12px;
+    color: #004077;
+    line-height: 26px;
+    text-align: left;
+}
+.news_content p,
+.news_content p span,
+.news_content span{
+    background:transparent !important;
+    font-size:18px !important;
+    line-height:30px;
+    font-family:'Microsoft YaHei'!important;
+
 }

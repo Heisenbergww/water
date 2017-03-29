@@ -25,6 +25,7 @@ class News extends ActiveRecord
 		['title', 'required', 'message' => '标题不能为空'],
 		['brief', 'required', 'message' => '简介不能为空'],
 		['descr', 'required', 'message' => '详情不能为空'],
+		['isshow', 'required', 'message' => '显示不能为空'],
 		['isshow', 'safe'],
 		['createtime', 'safe'],
 		['adminuser', 'safe'],

@@ -24,35 +24,32 @@
     <link rel="stylesheet" type="text/css" href="/css/ppt.css">
     <script type="text/javascript" src="/js/jquery.glide.min.js"></script>
 
+
 </head>
 <body style="overflow-x:hidden">
-<header class="navbar_fa clearfix">
+<header class="navbar_fa">
     <nav class="navbar">
         <div class="container clearfix">
             <a href="" name="top_top">
             </a>
-            <div class="logo fl">
-                <a href="/" name="logo"><img src="/img/logo.png" alt="" ></a>
-            </div>
-            <div class="logo-mid fl">
-                <div id="en" class="fl language-div">英文</div>
-                <div id="ru" class="fl language-div">俄文</div>
-            </div>
             <div class="logo-right fr">
                 <div class="language fr">
-                    <p><?php echo Yii::t('app', 'Tianjin Minsco International Trade CO., LTD');?></p>
+                    <p><?php echo Yii::t('app', '哈尔滨利民经济技术开发区自来水有限公司');?></p>
                 </div>
             </div>
         </div>
     </nav>
     <div class="menu container clearfix">
-        <ul class="clearfix ">
-            <li><a href="/" class=""><span><?php echo Yii::t('app', 'Home');?></span></a></li>
-            <li><a href="<?php echo yii\helpers\Url::to(['product/index'])?>"><span><?php echo Yii::t('app', 'Products');?></span></a></li>
-            <li><a href="<?php echo yii\helpers\Url::to(['aboutus/index'])?>"><span><?php echo Yii::t('app', 'About Us');?></span></a></li>
-            <li><a href="<?php echo yii\helpers\Url::to(['certification/index'])?>"><span><?php echo Yii::t('app', 'Certificates');?></span></a></li>
-            <li><a href="<?php echo yii\helpers\Url::to(['support/faq'])?>"><span><?php echo Yii::t('app', 'FAQ');?></span></a></li>
-            <li><a href="<?php echo yii\helpers\Url::to(['contactus/index'])?>"><span><?php echo Yii::t('app', 'Contact Us');?></span></a></li>
+        <div class="logo fl">
+            <a href="/" name="logo"><img src="/img/logo.png" alt="" ></a>
+        </div>
+        <ul class="clearfix fr">
+            <li><a href="/" class=""><span><?php echo Yii::t('app', '首页');?></span></a></li>
+            <li><a href="<?php echo yii\helpers\Url::to(['news/index'])?>"><span><?php echo Yii::t('app', '新闻');?></span></a></li>
+            <li><a href="<?php echo yii\helpers\Url::to(['known/index'])?>"><span><?php echo Yii::t('app', '用水常识');?></span></a></li>
+            <li><a href="<?php echo yii\helpers\Url::to(['open/index'])?>"><span><?php echo Yii::t('app', '办事公开');?></span></a></li>
+            <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '公司简介');?></span></a></li>
+            <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '联系我们');?></span></a></li>
         </ul>
     </div>
 </header>
@@ -70,27 +67,41 @@
         </div>
     </div>
 </section>
-
-
-<section class="container clearfix layout-main">
-    <div class="left-menu fl">
-        <a href="<?php echo yii\helpers\Url::to(['product/index'])?>"><h3>Products List</h3></a>
-        <div class="product-list">
-            <?php foreach($this->params['menu'] as $m):?>
-            <div class="product-category">
-                <h3><span></span><?php echo $m['title']?></h3>
-                <?php foreach($m['children'] as $cate):?>
-                <a href="<?php echo yii\helpers\Url::to(['product/index', 'cateid' => $cate['cateid']]) ?>">
-                    <p><?php echo $cate['title']?></p>
-                </a>
-                <?php endforeach;?>
-                <hr>
-            </div>
-            <?php endforeach;?>
-        </div>
+<link rel="stylesheet" href="/css/open.css">
+<link rel="stylesheet" href="/css/main.css">
+<div class="open-container container clearfix">
+    <div class="open-left-menu">
+        <ul>
+            <li class="open-li">
+                <a href="openpages1.html">单位介绍</a>
+            </li>
+            <li class="open-li">
+                <a href="openpages2.html">政策法规</a>
+            </li>
+            <li class="open-li">
+                <a href="openpages3.html">网上服务</a>
+            </li>
+            <li class="open-li">
+                <a href="openpages4.html">岗位规范</a>
+            </li>
+            <li class="open-li">
+                <a href="openpages5.html">业务流程</a>
+            </li>
+            <li class="open-li">
+                <a href="openpages6.html">收费标准</a>
+            </li>
+            <li class="open-li">
+                <a href="openpages7.html">业务信息</a>
+            </li>
+        </ul>
     </div>
-    <?php echo $content;?>
-</section>
+
+    <div class="open-right-content">
+        <?php echo $content;?>
+    </div>
+</div>
+
+
 
 <footer class="clearfix">
     <div class="container info-bottom clearfix footer">
@@ -118,15 +129,15 @@
                 </div>
                 <div class="footer_menu">
                     <ul>
-                        <li><a href="/" class=""><?php echo Yii::t('app', 'Home');?></a></li>
-                        <li><a href="<?php echo yii\helpers\Url::to(['product/index'])?>"><?php echo Yii::t('app', 'Products');?></a></li>
-                        <li><a href="<?php echo yii\helpers\Url::to(['aboutus/index'])?>"><?php echo Yii::t('app', 'About Us');?></a></li>
-                        <li><a href="<?php echo yii\helpers\Url::to(['certification/index'])?>"><?php echo Yii::t('app', 'Certificates');?></a></li>
-                        <li><a href="<?php echo yii\helpers\Url::to(['support/faq'])?>"><?php echo Yii::t('app', 'FAQ');?></a></li>
-                        <li><a href="<?php echo yii\helpers\Url::to(['contactus/index'])?>"><?php echo Yii::t('app', 'Contact Us');?></a></li>
+                        <li><a href="/" class=""><?php echo Yii::t('app', '首页');?></a></li>
+                        <li><a href="<?php echo yii\helpers\Url::to(['news/index'])?>"><?php echo Yii::t('app', '新闻');?></a></li>
+                        <li><a href="<?php echo yii\helpers\Url::to(['known/index'])?>"><?php echo Yii::t('app', '用水常识');?></a></li>
+                        <li><a href="<?php echo yii\helpers\Url::to(['open/index'])?>"><?php echo Yii::t('app', '办事公开');?></a></li>
+                        <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '公司简介');?></a></li>
+                        <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '联系我们');?></a></li>
                     </ul>
                 </div>
-                <p><?php echo Yii::t('app', 'Tianjin Minsco International Trade CO., LTD');?></p>
+                <p><?php echo Yii::t('app', '哈尔滨利民经济技术开发区自来水有限公司');?></p>
             </div>
         </div>
     </div>
@@ -135,15 +146,27 @@
 
 
 
-
 <!--回顶部-->
 <div class="go_top">
     <div class="go_top_bt">
-        <img src="/img/tp.png" alt="">
+        <img src="/img/tp.png" alt="" >
     </div>
 </div>
 
 
+<!--    <script>-->
+<!--        $(document).ready(function(){-->
+<!--            //轮播1-->
+<!--            $('#owl-carousel_first').owlCarousel({-->
+<!--                items: 1,-->
+<!--                loop: true,-->
+<!--//                lazyLoad: true,-->
+<!--//                autoHeight:true,-->
+<!--                autoplay: true,-->
+<!--                autoplayTimeout: 3000-->
+<!--            })-->
+<!--        })-->
+<!--    </script>-->
 <script type="text/javascript">
     $(document).ready(function () {
         var glide = $('.slider').glide({
@@ -161,11 +184,10 @@
             navClass:"slider-nav",//主导航器外部div类名
             navItemClass:"slider-nav__item", //本例中小方块的样式
             navCurrentItemClass:"slider-nav__item--current" //被选中后的样式
-        });  
+        });
     })
 </script>
+<script src="/js/main.js"></script>
 
-<script src="/js/jquery.cookie.js"></script>
-<script src="/js/main2.js"></script>
 </body>
 </html>

@@ -19,7 +19,7 @@ class HomeController extends CommonController
     public function actionIndex()
     {
         $this->layout = 'layout1';
-		$news = News::find()->where(['isshow'=>'1'])->orderBy(['createtime'=>SORT_DESC])->limit(1)->all();
+		$news = News::find()->where(['isshow'=>'1'])->orderBy(['createtime'=>SORT_DESC])->limit(2)->all();
 		$knowns = Known::find()->where(['isshow'=>'1'])->orderBy(['createtime'=>SORT_DESC])->limit(4)->all();
 		return $this->render('index',['news'=>$news,'knowns'=>$knowns]);
 	

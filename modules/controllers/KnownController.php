@@ -56,12 +56,12 @@ class KnownController extends CommonController
         }
         $model = new Known;
         $article = $model::find()->where('articleid = :id', [':id' => $articleid])->one();
-        $tmp = $article->cover;
+       
         if ($model->deleteAll('articleid=:id', [':id' => $articleid])) {
-            if (unlink($tmp)) {
+            
                 Yii::$app->session->setFlash('info', '删除成功');
                 return $this->redirect(['known/list']);
-            }
+            
         }
     }
 
