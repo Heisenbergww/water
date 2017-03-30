@@ -19,7 +19,7 @@
                 <h1 class="news-head">新闻</h1>
                 <?php foreach($articles as $art):?>
                     <div class="news-item clearfix">
-                        <a href="<?php echo yii\helpers\Url::to(['known/pages', 'articleid' => $art['articleid']]) ?>">
+                        <a href="<?php echo yii\helpers\Url::to(['news/pages', 'articleid' => $art['articleid']]) ?>">
                             <div class="news-item-r fl">
                                 <h5 class="news-item-head"><?php echo $art['title']?></h5>
                                 <p class="new-item-desc"><?php echo $art['brief']?></p>

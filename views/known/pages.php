@@ -10,7 +10,7 @@
         <nav id="breadcrumb">
             <ol class="breadcrumb">
                 <li><a href="<?php echo yii\helpers\Url::to(['home/index'])?>" class="">主页/</a></li>
-                <li><a href="<?php echo yii\helpers\Url::to(['aboutus/news'])?>" class="">用水常识/</a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['known/index'])?>" class="">用水常识/</a></li>
                 <li class="">常识</li>
             </ol>
         </nav>
