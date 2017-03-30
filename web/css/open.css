@@ -7,5 +7,49 @@
     float: left;
     width: 890px;
     margin-left: 20px;
-    background-color: green;
+    padding-bottom:20px;
+}
+.left_content{
+    float: left;
+    width:240px;
+    height: 500px;
+}
+.menu_body{
+    width: 200px;
+    float: right;
+    background: #edf3f7;
+    border-radius:5px ;
+    padding: 30px 0;
+}
+.menu_list{
+    border-top:1px dashed #81a8c0;
+}
+.menu_list_item{
+    list-style-type: none;
+    text-align: center;
+    border-bottom: 1px dashed #81a8c0;
+    padding: 5px 0 ;
+    position: relative;
+}
+.menu_list_item a{
+    color:#000;
+}
+.menu_list_item:hover{
+    cursor: default;
+    background: #e0ebf1;
+}
+.menu_list_item:hover .triangle{
+    display: inline-block;
+}
+
+.triangle{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 10px solid #29343a;
+    left: 40px;
+    top:9px;
+    display: none;
 }

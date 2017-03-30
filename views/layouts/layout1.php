@@ -47,7 +47,7 @@
                 <li><a href="/" class=""><span><?php echo Yii::t('app', '首页');?></span></a></li>
                 <li><a href="<?php echo yii\helpers\Url::to(['news/index'])?>"><span><?php echo Yii::t('app', '新闻');?></span></a></li>
                 <li><a href="<?php echo yii\helpers\Url::to(['known/index'])?>"><span><?php echo Yii::t('app', '用水常识');?></span></a></li>
-                <li><a href="<?php echo yii\helpers\Url::to(['open/index'])?>"><span><?php echo Yii::t('app', '办事公开');?></span></a></li>
+                <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '办事公开');?></span></a></li>
                 <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '公司简介');?></span></a></li>
                 <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '联系我们');?></span></a></li>
             </ul>
@@ -99,7 +99,7 @@
                             <li><a href="/" class=""><?php echo Yii::t('app', '首页');?></a></li>
                             <li><a href="<?php echo yii\helpers\Url::to(['news/index'])?>"><?php echo Yii::t('app', '新闻');?></a></li>
                             <li><a href="<?php echo yii\helpers\Url::to(['known/index'])?>"><?php echo Yii::t('app', '用水常识');?></a></li>
-                            <li><a href="<?php echo yii\helpers\Url::to(['open/index'])?>"><?php echo Yii::t('app', '办事公开');?></a></li>
+                            <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '办事公开');?></a></li>
                             <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '公司简介');?></a></li>
                             <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '联系我们');?></a></li>
                         </ul>

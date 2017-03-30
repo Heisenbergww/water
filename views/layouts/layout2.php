@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="csrf-token" content="<?= Yii::$app->request->csrfToken ?>"/>
-    <meta name="Keywords" Content="Minsco,China,Steel,Steel Rebar,Wire Rods,Hot Rolled Coil,Cold Rolled Steel Coil,Galvanized Steel Coil,Galvalumed Steel Coil,Prepainted Galvanized Steel Coil,Hot Rolled Steel Plate,Galvanized Steel Sheet,H-beam,I beam,Angle Steel and U-channel,Hot Dip Galvanized Round Pipe,Seamless Steel Pipe,Black Pipe,HRC,CRC,GI,GL & PPGI,HRP,CRP,GI plate"/>
-    <meta name="description" Content="MINSCO-China Professional Steel Supplier. We specialize on the steel production, stocking ,selling & trading in both domestic and aboard."/>
+    <meta name="Keywords" Content=""/>
+    <meta name="description" Content=""/>
     <title>MINSCO</title
     <link type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="/css/normal.css">
@@ -47,7 +47,7 @@
             <li><a href="/" class=""><span><?php echo Yii::t('app', '首页');?></span></a></li>
             <li><a href="<?php echo yii\helpers\Url::to(['news/index'])?>"><span><?php echo Yii::t('app', '新闻');?></span></a></li>
             <li><a href="<?php echo yii\helpers\Url::to(['known/index'])?>"><span><?php echo Yii::t('app', '用水常识');?></span></a></li>
-            <li><a href="<?php echo yii\helpers\Url::to(['open/index'])?>"><span><?php echo Yii::t('app', '办事公开');?></span></a></li>
+            <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '办事公开');?></span></a></li>
             <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '公司简介');?></span></a></li>
             <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><span><?php echo Yii::t('app', '联系我们');?></span></a></li>
         </ul>
@@ -70,30 +70,21 @@
 <link rel="stylesheet" href="/css/open.css">
 <link rel="stylesheet" href="/css/main.css">
 <div class="open-container container clearfix">
-    <div class="open-left-menu">
-        <ul>
-            <li class="open-li">
-                <a href="openpages1.html">单位介绍</a>
-            </li>
-            <li class="open-li">
-                <a href="openpages2.html">政策法规</a>
-            </li>
-            <li class="open-li">
-                <a href="openpages3.html">网上服务</a>
-            </li>
-            <li class="open-li">
-                <a href="openpages4.html">岗位规范</a>
-            </li>
-            <li class="open-li">
-                <a href="openpages5.html">业务流程</a>
-            </li>
-            <li class="open-li">
-                <a href="openpages6.html">收费标准</a>
-            </li>
-            <li class="open-li">
-                <a href="openpages7.html">业务信息</a>
-            </li>
-        </ul>
+    <div class="left_content">
+        <div class="menu_body">
+            <div class="menu_list">
+                <ul>
+                    <li class="menu_list_item"><div class="triangle"></div><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>">单位介绍</a></li>
+                    <li class="menu_list_item"><div class="triangle"></div><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>">政策法规</a></li>
+                    <li class="menu_list_item"><div class="triangle"></div><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>">网上服务</a></li>
+                    <li class="menu_list_item"><div class="triangle"></div><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>">岗位规范</a></li>
+                    <li class="menu_list_item"><div class="triangle"></div><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>">业务流程</a></li>
+                    <li class="menu_list_item"><div class="triangle"></div><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>">收费标准</a></li>
+                    <li class="menu_list_item"><div class="triangle"></div><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>">业务信息</a></li>
+                    <li class="menu_list_item"><div class="triangle"></div><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>">服务热线</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 
     <div class="open-right-content">
@@ -132,7 +123,7 @@
                         <li><a href="/" class=""><?php echo Yii::t('app', '首页');?></a></li>
                         <li><a href="<?php echo yii\helpers\Url::to(['news/index'])?>"><?php echo Yii::t('app', '新闻');?></a></li>
                         <li><a href="<?php echo yii\helpers\Url::to(['known/index'])?>"><?php echo Yii::t('app', '用水常识');?></a></li>
-                        <li><a href="<?php echo yii\helpers\Url::to(['open/index'])?>"><?php echo Yii::t('app', '办事公开');?></a></li>
+                        <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '办事公开');?></a></li>
                         <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '公司简介');?></a></li>
                         <li><a href="<?php echo yii\helpers\Url::to(['open/pages', 'articleid' => 6]) ?>"><?php echo Yii::t('app', '联系我们');?></a></li>
                     </ul>
